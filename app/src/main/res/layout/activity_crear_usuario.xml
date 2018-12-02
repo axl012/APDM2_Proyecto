@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearUsuario"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ndrn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Crear Usuario"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+ />
+
+    <EditText
+        android:id="@+id/etCrearContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+ />
+
+    <EditText
+        android:id="@+id/etComfirmarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Comfirmar Contraseña"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCrearUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Crear" />
+
+        <Button
+            android:id="@+id/btnCancelarCreacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+
+</LinearLayout>
