@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Critica"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Agregar critica"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreCritica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etCritica"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="Escribir critica"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calificacion"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/rbCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:isIndicator="false"
+        style="@style/Base.Widget.AppCompat.RatingBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnviarCritica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorPrimary"
+            android:text="Enviar" />
+
+        <Button
+            android:id="@+id/btnCancelarCritica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorPrimary"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

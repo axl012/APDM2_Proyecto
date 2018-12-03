@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:focusable="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:focusableInTouchMode="true"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="Iniciar Sesion" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="O"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="Crear Usuario" />
+
+</LinearLayout>
