@@ -157,10 +157,17 @@
             android:textSize="20sp" />
     </LinearLayout>
 
+   
     <Button
         android:id="@+id/btnCritica"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="15dp"
         android:text="Agregar Critica" />
 
     <TextView
@@ -181,18 +188,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
             android:orientation="vertical">
 
             <ListView
                 android:id="@+id/lvCriticas"
-=======
-            android:orientation="vertical" >
-
-            <ListView
->>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:orientation="vertical"></ListView>
+
         </LinearLayout>
     </ScrollView>
 

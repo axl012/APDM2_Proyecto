@@ -1,6 +1,5 @@
 package com.example.axelc.gamelibrary;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -29,19 +32,11 @@ public class Critica extends AppCompatActivity {
     RatingBar rbCalificacion;
     Button btnEnviarCritica, btnCancelarCritica;
 
-=======
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
-public class Critica extends AppCompatActivity {
-
->>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_critica);
-<<<<<<< HEAD
-
         etNombreCritica = findViewById(R.id.etNombreCritica);
         etCritica = findViewById(R.id.etCritica);
         rbCalificacion = findViewById(R.id.rbCalificacion);
@@ -109,8 +104,5 @@ public class Critica extends AppCompatActivity {
             postRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
             queue.add(postRequest);
 
-
-=======
->>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
     }
 }
