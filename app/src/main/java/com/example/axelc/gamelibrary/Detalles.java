@@ -1,5 +1,6 @@
 package com.example.axelc.gamelibrary;
 
+<<<<<<< HEAD
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -26,11 +27,18 @@ public class Detalles extends AppCompatActivity {
     private static String url = "https://axelhibridas.000webhostapp.com/proyecto/selectcritica.php";
 
     ArrayList<HashMap<String, String>> criticasList;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Detalles extends AppCompatActivity {
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalles);
+<<<<<<< HEAD
 
         criticasList = new ArrayList<>();
 
@@ -125,5 +133,7 @@ public class Detalles extends AppCompatActivity {
             lvCriticas.setAdapter(adapter);
         }
 
+=======
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
     }
 }

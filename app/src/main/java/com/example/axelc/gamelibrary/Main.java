@@ -35,6 +35,7 @@ public class Main extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
          setContentView(R.layout.activity_main);
         btnIniciar = findViewById(R.id.btnIniciar);
         btnIniciar.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +45,9 @@ public class Main extends AppCompatActivity {
                 startActivityForResult(intent,0);
             }
         });
+=======
+         setContentView(R.layout.activity_juegos);
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
       /*  etUsuario = findViewById(R.id.etUsuario);
         etContraseña = findViewById(R.id.etContraseña);
         btnIniciar = findViewById(R.id.btnIniciar);

@@ -30,15 +30,22 @@
     </LinearLayout>
 
     <EditText
+<<<<<<< HEAD
         android:id="@+id/etNombreCritica"
+=======
+        android:id="@+id/etNombre"
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nombre"
+<<<<<<< HEAD
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:padding="15dp"
         android:layout_marginBottom="2dp"
+=======
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
         android:inputType="textPersonName" />
 
     <LinearLayout
@@ -49,6 +56,7 @@
     </LinearLayout>
 
     <EditText
+<<<<<<< HEAD
         android:id="@+id/etCritica"
         android:layout_width="match_parent"
         android:layout_height="183dp"
@@ -56,6 +64,11 @@
         android:focusableInTouchMode="true"
         android:padding="15dp"
         android:layout_marginBottom="2dp"
+=======
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
         android:ems="10"
         android:hint="Escribir critica"
         android:inputType="textMultiLine" />
@@ -73,18 +86,26 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Calificacion"
+<<<<<<< HEAD
         android:padding="15dp"
         android:layout_marginBottom="2dp"
+=======
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
         android:textSize="24sp" />
 
     <RatingBar
         android:id="@+id/rbCalificacion"
+<<<<<<< HEAD
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:numStars="5"
         android:isIndicator="false"
         style="@style/Base.Widget.AppCompat.RatingBar" />
+=======
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -92,6 +113,7 @@
         android:orientation="horizontal">
 
         <Button
+<<<<<<< HEAD
             android:id="@+id/btnEnviarCritica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -113,6 +135,19 @@
             android:gravity="center"
             android:layout_marginTop="2dp"
             android:background="@color/colorPrimary"
+=======
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enviar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
             android:text="Cancelar" />
     </LinearLayout>
 

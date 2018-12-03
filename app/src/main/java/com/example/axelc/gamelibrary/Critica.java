@@ -1,5 +1,6 @@
 package com.example.axelc.gamelibrary;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,10 +29,18 @@ public class Critica extends AppCompatActivity {
     RatingBar rbCalificacion;
     Button btnEnviarCritica, btnCancelarCritica;
 
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Critica extends AppCompatActivity {
+
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_critica);
+<<<<<<< HEAD
 
         etNombreCritica = findViewById(R.id.etNombreCritica);
         etCritica = findViewById(R.id.etCritica);
@@ -101,5 +110,7 @@ public class Critica extends AppCompatActivity {
             queue.add(postRequest);
 
 
+=======
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
     }
 }

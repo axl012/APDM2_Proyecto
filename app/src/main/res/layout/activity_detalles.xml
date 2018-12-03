@@ -181,10 +181,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:orientation="vertical">
 
             <ListView
                 android:id="@+id/lvCriticas"
+=======
+            android:orientation="vertical" >
+
+            <ListView
+>>>>>>> fb92e8c8d4c451188bba5187e1808cb22bf59f19
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
